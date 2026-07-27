@@ -1,8 +1,13 @@
 aid: happiest-baby
 name: Happiest Baby
-description: 'Happiest Baby is a company surfaced as a portfolio company of gv, obvious-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Happiest Baby is a consumer sleep-technology company founded by pediatrician
+  Dr. Harvey Karp, best known for the SNOO Smart Sleeper - an FDA-authorized responsive
+  bassinet that uses sensor-driven motion and white noise to soothe infants and improve
+  sleep. The company also sells the Sleepea swaddle and sleep sacks, runs a companion
+  mobile app with parenting guidance, and operates a healthcare/hospital program. Its
+  connected SNOO hardware communicates in real time over PubNub; Happiest Baby publishes
+  no official public developer API, and the only programmatic access is via community-built
+  wrappers around the undocumented mobile-app API. Backed by GV and Obvious Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/happiest-baby/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +16,30 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://happiestbaby.com/cdn/shop/t/462/assets/HBLogo.png
 tags:
 - Company
 - Consumer
+- Baby
+- Sleep Technology
+- Smart Home
+- IoT
+- Health
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +48,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://happiestbaby.com
+  url: https://www.happiestbaby.com
+- type: Blog
+  url: https://www.happiestbaby.com/blogs
+- type: Support
+  url: https://www.happiestbaby.com/pages/contact-us
+- type: TermsOfService
+  url: https://legal.happiestbaby.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://legal.happiestbaby.com/privacy-policy
+- type: DomainSecurity
+  url: security/happiest-baby-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
